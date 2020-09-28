@@ -3,7 +3,7 @@
 #include <readline/readline.h>
 #include <stdlib.h>
 int main(void) {
-  char *temp_str = readline("Enter tempratur in celsius: ");
+  char *temp_str = readline("Enter temprature in celsius: ");
   double temp = atof(temp_str);
   printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n", temp, 101.5);
   return 0;
